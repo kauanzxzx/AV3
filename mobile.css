@@ -1,333 +1,435 @@
 @media screen and (max-width: 600px) {
-    .nav{
-        display: list-item;
+    li a:hover {
+    height: 29px;
+    font-size: 23px;
+    }
+    .select{
+    font-size: 23px;
+    height: 101px;
+}
+    .nav {
+        display: flex;
+        flex-direction: column;
         background-color: #1a4e74f8;
         color: white;
-        height: 60px;
+        height: auto;
         max-width: 100%;
         position: sticky;
     }
 
-    .displayindex{
-        display: list-item;
-        list-style: none;
-        margin-top: 50px;
+    .displayindex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
         max-width: 100%;
     }
 
-    .h2index{
+    .h2index {
         font-size: 30px;
-        margin-bottom: 0;
-        margin-top: 20px;
+        margin: 20px 0 0 0;
     }
 
-    img{
+    img {
         height: 300px;
         width: 300px;
         border-radius: 300px;
     }
 
-    .divimg{
-        padding-left: 0px;
-        padding-top: 40px;
+    .divimg {
+        padding: 40px 0 0 0;
+        display: flex;
+        justify-content: center;
     }
-        
-    .circulo{
+
+    .circulo {
         background-color: #1a4e74f8;
         height: 300px;
-        width: 303px;
+        width: 300px;
         border-radius: 300px;
-    }
-   
-    h2{
-        font-size: 65px;
-    }
-    .ulnav{
         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ulnav {
+        display: flex;
+        justify-content: center;
         list-style-type: none;
-        overflow: hidden;
-        font-size: 30px;
+        font-size: 22px;
         padding: 0;
-        margin-top: 0;
-        margin-left: 0;
+        margin: 0;
     }
 
     li a {
-    display: block;
-    color: white;
-    padding: px;
-    padding-top: 10px;
-    text-decoration: none;
-    height: 70px;
+        display: block;
+        padding: 10px;
+        height: auto;
     }
 
-    .select{
-    background-color: rgb(46, 61, 82);
-    font-size: 30px;
-    height: 60px;
-    padding-bottom: 0px;
+    .select {
+        background-color: rgb(46, 61, 82);
+        font-size: 24px;
+        height: auto;
     }
 
-    .margem{
-    padding-top: 10px;
-    padding-left: 110px;
-    padding-right: 50px;
+    .margem {
+        padding: 10px 20px;
     }
 
-.h1{
-    font-size: 40px;
-    padding-left: 50px;
+    .h1 {
+        font-size: 36px;
+        padding-left: 20px;
     }
 
-.parag{
-    font-size: 18px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
+    .parag {
+        font-size: 16px;
+        padding: 0 20px;
+    }
 
-.topicos{
-    display: flex;
-    background-color: #1a4e74f8;
-    align-items: center;
-    font-size: 20px;
-    width: 150px;
-    height: 50px;
-    justify-content: center;
-    border-radius: 20px;
-    border: solid 2px black;
-    color: white;
-}
-.divtopicos{
-    display: list-item;
-    justify-content: center;
-    padding-left: 70px;
-    gap: 50px;
-    list-style: none;
-    max-width: 100%;
-}
-.divtopicos1{
-    display: list-item;
-    justify-content: center;
-    padding-left: 25px;
-    gap: 50px;
-    list-style: none;
-    max-width: 100%;
-}
+    .topicos {
+        font-size: 18px;
+        width: 140px;
+        height: 40px;
+    }
 
-a{
-    text-decoration: none;
-    color: white;
-}
+    .divtopicos, .divtopicos1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px 0;
+    }
 
-.button {
-    display: flex; 
-    align-items: center;
-    background-color: #1a4e74f8;
-    padding: 15px;
-    width: 150px;
-    height: 60px;
-    color: white;
-    border: solid 2px black;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 20px;
-    cursor: pointer;
-    margin: 4px 2px;
-    margin-top: 15px;
-}
+    .button {
+        width: 140px;
+        height: 50px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
 
-.container{
-    width: 400px;
-    padding-left: 0px;
-    padding-top: 60px;
-    font-size: 30px;
-}
+    .container {
+        width: auto;
+        padding: 20px;
+        font-size: 28px;
+        text-align: center;
+    }
 
- .pcontainer{
+    .pcontainer {
+        font-size: 18px;
+        width: auto;
+        text-align: center;
+    }
+
+    .divbotaoindex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 20px 0;
+    }
+
+    .quadrado {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .divcurriculo {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 20px 0;
+    }
+
+    .h1curr {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .pcurriculo {
+        padding-left: 10px;
+        font-size: 16px;
+        width: auto;
+    }
+
+    .habilidades {
+        border: solid 2px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    ul {
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+    .divhab {
+        padding-top: 30px;
+        margin-left: 0;
+    }
+
+    .selecao {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        max-width: 100%;
+        padding: 12px;
+        border: 2px solid black;
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+
+    .inputmens {
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .inputnome, .inputemail {
+        height: 50px;
+    }
+
+    .inputemail {
+        margin-top: 0px;
+        padding-left: 0;
+    }
+
+    .contato {
+        border: solid 2px;
+        border-radius: 20px;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .divctt {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin: 0px 20px;
+    }
+
+    .central {
+        padding-top: 20px;
+    }
+
+    .h1ctt {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .pctt {
+        font-size: 16px;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #1a4e74f8;
+        color: white;
         font-size: 20px;
-        width: 400px;
+        padding: 15px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
     }
 
+    .divsubmit {
+        padding: 10px;
+    }
 
-.button:hover{
-    background-color: rgb(46, 61, 82);
-}
+    .divcent {
+        padding-left: 0;
+    }
 
-
-li a:hover {
-    background-color: #1a4e74f8;
-    height: fit-content;
-    height: 35px;
-    font-size: 30px;
-}
-.divbotaoindex{
-    display: list-item;
-    justify-content: center;
-    list-style: none;
-    gap: 0px;
-    padding-left: 60px;
-}
-.quadrado{
-    justify-content: center;
-    border: solid 2px;
-    width: 100%;
-    height: 500px;
-    margin-top: 50px;
-}
-
-
-
-
-
-.divcurriculo{
-    display: list-item;
-    gap: 10px;
-    padding-top: 50px;
-}
-
-.h1curr{
-    font-size: 35px;
-    padding-left: 80px;
-}
-
-.pcurriculo{
-    padding-left: 80px;
-    width: 500px;
-    font-size: 18px;
-}
-
-.habilidades{
-    border: solid 2px;
-    border-radius: 20px;
-    height: 220px;
-    padding: 0;
-    padding-left: 30px;
-}
-
-ul{
-    padding-left: 100px;
-    font-size: 20px;
-}
-
-.divhab{
-    padding-top: 80px;
-    width: 460px;
-    margin-left: 80px;
-}
-
-
-
-
-
-
-.selecao{
-    padding-left: 10px;
-}
-
-input[type=text], select {
-  width: 400px;
-  padding: 12px 10px;
-  display: inline-block;
-  border: 2px solid black;
-  border-radius: 15px;
-  box-sizing: border-box;
-}
-
-.inputmens{
-    width: 100px;
-    height: 200px;
-    margin-top:50px;
-}
-
-.inputnome{
-    height: 60px;
-}
-
-.inputemail{
-    padding-left: 35px;
-    height: 60px;
-    margin-top:20px;
-}
-
-.contato{
-    padding: 25px;
-    border: solid 2px;
-    width: 330px;
-    height: 350px;
-    padding-left: 40px;
-}
-
-.divctt{
-    display: list-item;
-    margin-top: 40px;
-}
-
-.central{
-    padding-top: 450px;
-}
-
-.h1ctt{
-    font-size: 30px;
-    padding-left: 100px;
-    margin-top: 100px;
-}
-
-.pctt{
-    font-size: 18px;
-}
-
-input[type=submit] {
-  width: 400px;
-  background-color: #1a4e74f8;
-  color: white;
-  font-size: 30px;
-  padding: 20px;
-  margin-top: 30px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover{
-    background-color: rgb(46, 61, 82);
-}
-.divsubmit{
-    padding-left: 85px;
-}
-.divcent{
-    float: left;
-    padding-left: 0px;
-}
-
-
-
-
-
-
-footer{
+    footer{
     margin-top: 100px;
     background-color: #1a4e74f8;
     border: 2px solid;
     max-width: 100%;
-    height: 100px;
     color: white;
     text-align: center;
+    padding: 20px 0;
 }
 
 .divfooter{
-    padding-top: 20px;
     display: flex;
     gap: 20px;
-    justify-content: center;
-    font-size: 20px;
-    max-width: 100%;
+    font-size: 18px;
 }
 .pfooter{
     max-width: 100%;
-    height: 10px;
-    padding: 8px;
-    text-align: center;
     background-color: rgb(46, 61, 82);
     color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    li a:hover {
+    height: fit-content;
+    height: 37px;
+    font-size: 25px;
+    }
+    .select{
+    font-size: 29px;
+    height: 101px;
+}
+    
+    .nav {
+        height: 70px;
+        padding-left: 20px;
+    }
+
+    .ulnav {
+        font-size: 24px;
+    }
+
+    .displayindex {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .divimg img {
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+    }
+
+    .container {
+        font-size: 38px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .pcontainer {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .divbotaoindex {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        padding-left: 0;
+    }
+
+    .button {
+        width: 160px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .margem {
+        padding: 20px 50px;
+    }
+
+    .h1 {
+        font-size: 45px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .parag {
+        font-size: 18px;
+        text-align: justify;
+        padding: 0 40px;
+    }
+
+    .divtopicos,
+    .divtopicos1 {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .divcurriculo {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .h1curr {
+        font-size: 40px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .pcurriculo {
+        font-size: 18px;
+        padding: 0 30px;
+        text-align: justify;
+    }
+
+    .habilidades {
+        padding: 20px;
+        width: 100%;
+        margin: 0;
+    }
+
+    ul {
+        padding-left: 40px;
+        font-size: 18px;
+    }
+
+    .divctt {
+        flex-direction: column;
+        gap: 30px;
+        margin: 30px 40px;
+    }
+
+    .contato {
+        width: 100%;
+    }
+
+    input[type=text],
+    input[type=submit],
+    .inputmens {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .h1ctt {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .divsubmit {
+        padding: 0;
+    }
+
+    footer{
+    margin-top: 100px;
+    background-color: #1a4e74f8;
+    border: 2px solid;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.divfooter{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+.pfooter{
+    max-width: 100%;
+    background-color: rgb(46, 61, 82);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
 }
 }
